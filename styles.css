@@ -1,28 +1,60 @@
-/* Estilo para todo el cuerpo de la página */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0; /* Fondo gris claro */
-  color: #333;              /* Texto gris oscuro */
-  line-height: 1.6;
+body{
+    background-color: rgb(94, 72, 109);
+}
+form{
+    background-color: rgb(189, 104, 104);
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+label{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 5px;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 123, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form .error{
+    border: red 2px solid;
+}
+#tareas{
+    width: 500px;
+    margin: 20px auto;
+    background-color: rgb(189, 104, 104);
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    color:  rgb(4, 0, 255);
+}
+#tareas p{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    display: block;
 }
 
-/* Estilo para los títulos */
-h1 {
-  color: #0066cc;           /* Título azul */
-  text-align: center;
-}
-
-/* Estilo para los párrafos */
-p {
-  font-size: 16px;
-  margin-bottom: 20px;      /* Espaciado inferior */
-}
-
-/* Estilo para un botón o enlace */
-a {
-  color: #ffffff;
-  background-color: #0066cc;
-  padding: 10px 20px;
-  text-decoration: none;    /* Quitar subrayado */
-  border-radius: 5px;       /* Bordes redondeados */
+#tareas p:nth-child(odd){
+    color: rgb(121, 8, 150);
+    font-size: 25px;
+    cursor: pointer;
 }
