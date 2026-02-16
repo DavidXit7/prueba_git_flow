@@ -26,3 +26,10 @@ a {
   text-decoration: none;    /* Quitar subrayado */
   border-radius: 5px;       /* Bordes redondeados */
 }
+
+
+h2{
+    font-size: 30px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+}
