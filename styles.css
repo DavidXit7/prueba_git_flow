@@ -1,0 +1,28 @@
+/* Estilo para todo el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Fondo gris claro */
+  color: #333;              /* Texto gris oscuro */
+  line-height: 1.6;
+}
+
+/* Estilo para los títulos */
+h1 {
+  color: #0066cc;           /* Título azul */
+  text-align: center;
+}
+
+/* Estilo para los párrafos */
+p {
+  font-size: 16px;
+  margin-bottom: 20px;      /* Espaciado inferior */
+}
+
+/* Estilo para un botón o enlace */
+a {
+  color: #ffffff;
+  background-color: #0066cc;
+  padding: 10px 20px;
+  text-decoration: none;    /* Quitar subrayado */
+  border-radius: 5px;       /* Bordes redondeados */
+}
